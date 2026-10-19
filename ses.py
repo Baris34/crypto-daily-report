@@ -9,7 +9,7 @@ import subprocess
 
 import edge_tts
 
-VARSAYILAN_SES = "tr-TR-AhmetNeural"   # erkek; kadın: tr-TR-EmelNeural
+VARSAYILAN_SES = "tr-TR-EmelNeural"   # kadın; erkek: tr-TR-AhmetNeural
 
 # Emoji ve süs karakterlerini temizlemek için (⏰, ⚡, 🌡️, ⚠️ vb. dahil)
 _EMOJI = re.compile(
